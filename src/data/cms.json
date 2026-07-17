@@ -1,0 +1,268 @@
+{
+  "about": {
+    "name": "Dr. Jalpesh Mehta",
+    "tagline": "Guiding Lives Through Ancient Vedic Wisdom",
+    "bioShort": "Dr. Jalpesh Mehta is a highly respected Indian spiritual personality and founder of the Ramkrupa Foundation. Operating at the intersection of ancient scripture and modern life, he offers deep expertise as a Vedic Astrologer, Vaastu-Sastra Expert, and Bhagwat Kathakar.",
+    "bioLong": "Dr. Jalpesh Mehta has dedicated over two decades to preserving and spreading the light of Sanatan Dharma. As the founder of the Ramkrupa Foundation and an active member of the Akhil Bharatiya Nagar Parishad, his discourses bridge the gap between traditional wisdom and contemporary challenges. He has guided thousands of individuals and families globally towards peace and prosperity through precise Janampatri readings, non-destructive Vaastu solutions, and heart-awakening Kathas.",
+    "avatar": "/assets/dr_jalpesh_mehta.png",
+    "phone": "+91 98980 12345",
+    "whatsapp": "+919898012345",
+    "email": "inquiry@drjalpeshmehta.com"
+  },
+  "stats": [
+    { "value": "20+", "label": "Years of Experience" },
+    { "value": "10,000+", "label": "Consultations Done" },
+    { "value": "500+", "label": "Kathas Performed" },
+    { "value": "50+", "label": "Cities Covered" }
+  ],
+  "services": [
+    {
+      "id": "srv1",
+      "title": "Kundali / Janampatri",
+      "description": "Detailed birth chart analysis with planetary positions, dashas, and life predictions.",
+      "icon": "scroll",
+      "domain": "astrology"
+    },
+    {
+      "id": "srv2",
+      "title": "Manglik Dosh Report",
+      "description": "Comprehensive Manglik analysis with remedies and compatibility assessment.",
+      "icon": "heart",
+      "domain": "astrology"
+    },
+    {
+      "id": "srv3",
+      "title": "Kaal Sarp Dosh",
+      "description": "Identify and resolve Kaal Sarp Yoga through prescribed Vedic remedies.",
+      "icon": "zap",
+      "domain": "astrology"
+    },
+    {
+      "id": "srv4",
+      "title": "Marriage Compatibility",
+      "description": "Kundali Milan — Guna matching, dosh analysis, and auspicious muhurat selection.",
+      "icon": "rings",
+      "domain": "astrology"
+    },
+    {
+      "id": "srv5",
+      "title": "Career & Business",
+      "description": "Planetary guidance for career decisions, business naming, and financial growth.",
+      "icon": "briefcase",
+      "domain": "astrology"
+    },
+    {
+      "id": "srv6",
+      "title": "Shani Sade Sati",
+      "description": "Analysis of Saturn transit effects with protective remedies and gemstone guidance.",
+      "icon": "shield",
+      "domain": "astrology"
+    },
+    {
+      "id": "srv7",
+      "title": "Home Vaastu Audit",
+      "description": "Complete residential Vaastu analysis with non-destructive correction solutions.",
+      "icon": "home",
+      "domain": "vaastu"
+    },
+    {
+      "id": "srv8",
+      "title": "Office / Commercial Vaastu",
+      "description": "Optimize workspace energy for business growth and employee harmony.",
+      "icon": "building",
+      "domain": "vaastu"
+    },
+    {
+      "id": "srv9",
+      "title": "Bhagwat Katha",
+      "description": "7-day immersive Shrimad Bhagwat Katha narration for spiritual awakening.",
+      "icon": "book",
+      "domain": "kathakar"
+    },
+    {
+      "id": "srv10",
+      "title": "Shiv Puran Katha",
+      "description": "Sacred narration of Shiv Puran with devotional music and community gathering.",
+      "icon": "flame",
+      "domain": "kathakar"
+    },
+    {
+      "id": "srv11",
+      "title": "Gemstone Consultation",
+      "description": "Personalized gemstone recommendation based on planetary positions and dasha analysis.",
+      "icon": "gem",
+      "domain": "astrology"
+    },
+    {
+      "id": "srv12",
+      "title": "Yearly Rashifal",
+      "description": "Comprehensive yearly horoscope prediction for all 12 zodiac signs.",
+      "icon": "calendar",
+      "domain": "astrology"
+    }
+  ],
+  "zodiacSigns": [
+    { "id": "aries", "name": "Mesh", "nameEn": "Aries", "symbol": "♈", "prediction": "A promising day for career growth. Financial stability improves. Focus on family bonds and health routines." },
+    { "id": "taurus", "name": "Vrushabh", "nameEn": "Taurus", "symbol": "♉", "prediction": "Creativity and romance flourish today. Avoid risky investments. Students may receive good news regarding exams." },
+    { "id": "gemini", "name": "Mithun", "nameEn": "Gemini", "symbol": "♊", "prediction": "Communication skills bring new opportunities. Travel plans may materialize. Maintain harmony in relationships." },
+    { "id": "cancer", "name": "Kark", "nameEn": "Cancer", "symbol": "♋", "prediction": "Emotional well-being takes priority. Property matters show progress. Spiritual practices bring inner peace." },
+    { "id": "leo", "name": "Simha", "nameEn": "Leo", "symbol": "♌", "prediction": "Leadership qualities shine at workplace. Social recognition increases. Health needs attention in the evening." },
+    { "id": "virgo", "name": "Kanya", "nameEn": "Virgo", "symbol": "♍", "prediction": "Analytical mind helps solve pending issues. Financial gains from unexpected sources. Focus on balanced diet." },
+    { "id": "libra", "name": "Tula", "nameEn": "Libra", "symbol": "♎", "prediction": "Partnerships and collaborations bring success. Legal matters may resolve favorably. Creative pursuits are rewarding." },
+    { "id": "scorpio", "name": "Vrushchik", "nameEn": "Scorpio", "symbol": "♏", "prediction": "Transformation and renewal are key themes. Hidden truths may surface. Focus on long-term financial planning." },
+    { "id": "sagittarius", "name": "Dhanu", "nameEn": "Sagittarius", "symbol": "♐", "prediction": "Higher learning and spiritual growth are favored. Travel brings fresh perspectives. Business expansion looks promising." },
+    { "id": "capricorn", "name": "Makar", "nameEn": "Capricorn", "symbol": "♑", "prediction": "Discipline and hard work pay off. Recognition from superiors expected. Family celebrations bring joy." },
+    { "id": "aquarius", "name": "Kumbh", "nameEn": "Aquarius", "symbol": "♒", "prediction": "Innovation leads to breakthroughs at work. Social connections expand. Health improves with regular exercise." },
+    { "id": "pisces", "name": "Meen", "nameEn": "Pisces", "symbol": "♓", "prediction": "Intuition guides important decisions. Artistic talents gain appreciation. Romantic relationships deepen meaningfully." }
+  ],
+  "testimonials": [
+    {
+      "id": "test1",
+      "name": "Rajesh Patel",
+      "location": "Ahmedabad, Gujarat",
+      "rating": 5,
+      "text": "Dr. Jalpesh Mehta's kundali reading was incredibly accurate. His remedies for Kaal Sarp Dosh brought remarkable changes in my career within months. Truly blessed to have his guidance.",
+      "service": "Kundali Reading"
+    },
+    {
+      "id": "test2",
+      "name": "Priya Sharma",
+      "location": "Mumbai, Maharashtra",
+      "rating": 5,
+      "text": "The Vaastu consultation for our new home was transformative. Dr. Mehta identified issues we never thought of and provided simple, non-destructive solutions. Our family harmony improved significantly.",
+      "service": "Vaastu Consultation"
+    },
+    {
+      "id": "test3",
+      "name": "Amit & Sneha Desai",
+      "location": "Surat, Gujarat",
+      "rating": 5,
+      "text": "We attended the Shrimad Bhagwat Katha and it was a life-changing experience. Dr. Mehta's narration style touches the soul directly. We have become regular attendees of all his events.",
+      "service": "Bhagwat Katha"
+    },
+    {
+      "id": "test4",
+      "name": "Kiran Joshi",
+      "location": "Rajkot, Gujarat",
+      "rating": 5,
+      "text": "The marriage compatibility analysis was thorough and the muhurat selection was perfect. Dr. Mehta's predictions about our married life have been surprisingly accurate. Highly recommended!",
+      "service": "Marriage Compatibility"
+    },
+    {
+      "id": "test5",
+      "name": "Vikram Thakkar",
+      "location": "Vadodara, Gujarat",
+      "rating": 5,
+      "text": "My business was going through a rough patch. After Dr. Mehta's consultation and the gemstone he recommended, things started improving within weeks. His knowledge of Vedic astrology is unmatched.",
+      "service": "Career & Business"
+    }
+  ],
+  "galleryImages": [
+    { "id": "gal1", "src": "/assets/katha_vyaspeeth.png", "alt": "Pujya Dr. Jalpesh Mehta - Bhagwat Katha Vyaspeeth" },
+    { "id": "gal2", "src": "/assets/dr_jalpesh_mehta.png", "alt": "Pujya Dr. Jalpesh Mehta - Vedic Astrologer, Vaastu Expert" },
+    { "id": "gal3", "src": "/assets/vastu_purush_mandala.png", "alt": "Vastu Purush Mandala - Ancient Architectural Blueprint" }
+  ],
+  "videos": [
+    {
+      "id": "vid1",
+      "youtubeId": "GUoLCtTP1uk",
+      "title": "Shrimad Bhagwat Katha - Day 1 | Pujya Dr. Jalpesh Mehta",
+      "category": "kathakar",
+      "duration": "3:15:42"
+    },
+    {
+      "id": "vid2",
+      "youtubeId": "YHFHQXqvtfY",
+      "title": "પશ્વિમ દિશાના વાસ્તુદોષ અને ઉપાય .! | વાસ્તુ દર્શન - ૨૦૨૬",
+      "category": "vaastu",
+      "duration": "10:32"
+    },
+    {
+      "id": "vid3",
+      "youtubeId": "phDT2CVJP9o",
+      "title": "હોળી પર થતા ગ્રહણની શુભાશુભ અસરો - ચંદ્ર ગ્રહણ માર્ચ ૨૦૨૬",
+      "category": "astrology",
+      "duration": "14:50"
+    },
+    {
+      "id": "vid4",
+      "youtubeId": "nkTswTsi1pM",
+      "title": "કુંભ રાશિફળ ડો.જલ્પેશ મહેતા ૨૦૨૬ | Kumbh (Aquarius) Rashi Rashifal",
+      "category": "astrology",
+      "duration": "18:42"
+    },
+    {
+      "id": "vid5",
+      "youtubeId": "pFxfm35RFpM",
+      "title": "પૂર્વ દિશાના દોષ અને ઉપાય .! | વાસ્તુ દર્શન - ૨૦૨૬",
+      "category": "vaastu",
+      "duration": "12:14"
+    },
+    {
+      "id": "vid6",
+      "youtubeId": "PnMWOqzFaxo",
+      "title": "વૃષભ રાશિફળ ડો.જલ્પેશ મહેતા ૨૦૨૬ | Vrushabh (Taurus) Rashi Rashifal",
+      "category": "astrology",
+      "duration": "17:15"
+    }
+  ],
+  "shorts": [
+    {
+      "id": "short1",
+      "youtubeId": "ByVFoCvCJr4",
+      "title": "કાલસર્પ યોગનું નિવારણ કેવી રીતે કરશો ? #astrology #upay"
+    },
+    {
+      "id": "short2",
+      "youtubeId": "yA0F2NjnRCQ",
+      "title": "મિથુન રાશિફળ ૨૦૨૬-Gemini 2026 #astrology #horoscope"
+    },
+    {
+      "id": "short3",
+      "youtubeId": "cDpLdit8oMY",
+      "title": "વૃષભ રાશિ ૨૦૨૬ - Taurus 2026 #astrology #horoscope"
+    },
+    {
+      "id": "short4",
+      "youtubeId": "_ELNrc5_2nA",
+      "title": "જાણો મકર રાશિના જાતકો માટે કેવું રહેશે ૨૦૨૫-૨૦૨૬ નું વર્ષ.?"
+    }
+  ],
+  "kathaGallery": [
+    "/assets/katha_vyaspeeth.png",
+    "/assets/dr_jalpesh_mehta.png",
+    "/assets/vastu_purush_mandala.png"
+  ],
+  "upcomingEvents": [
+    {
+      "id": "event1",
+      "title": "7-Day Shrimad Bhagwat Saptah Gyan Yajna",
+      "date": "2026-08-10",
+      "time": "03:00 PM - 07:00 PM",
+      "venue": "Ramkrupa Foundation Campus, Satellite Road",
+      "city": "Ahmedabad",
+      "state": "Gujarat",
+      "status": "upcoming"
+    },
+    {
+      "id": "event2",
+      "title": "Vedic Astrology Seminar & Kundali Workshop",
+      "date": "2026-08-25",
+      "time": "10:00 AM - 01:00 PM",
+      "venue": "Grand Bhagwati Hall, SG Highway",
+      "city": "Ahmedabad",
+      "state": "Gujarat",
+      "status": "upcoming"
+    },
+    {
+      "id": "event3",
+      "title": "Vaastu Shastra elements alignment & remedies seminar",
+      "date": "2026-09-05",
+      "time": "04:00 PM - 06:30 PM",
+      "venue": "Town Hall Auditorium",
+      "city": "Rajkot",
+      "state": "Gujarat",
+      "status": "upcoming"
+    }
+  ]
+}
