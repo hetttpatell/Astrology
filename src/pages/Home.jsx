@@ -74,7 +74,7 @@ const Home = () => {
 
   return (
     <div className="relative overflow-hidden">
-      
+
 
 
       {/* ══════════════════════════════════════════════
@@ -82,7 +82,7 @@ const Home = () => {
       ══════════════════════════════════════════════ */}
       <section className="relative py-12 md:py-20 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-10 lg:gap-16 items-center">
-          
+
           {/* Hero Text */}
           <div ref={heroTextRef} className="lg:col-span-7 flex flex-col gap-5 text-left">
             <span className="text-accent-kathakar uppercase tracking-widest text-[11px] font-semibold font-body border-l-2 border-accent-kathakar pl-3">
@@ -214,7 +214,7 @@ const Home = () => {
         </div>
 
         <div ref={cardsRef} className="grid grid-cols-1 md:grid-cols-3 gap-6 lg:gap-8">
-          
+
           {/* Astrology */}
           <Link
             to="/astrology"
@@ -305,11 +305,10 @@ const Home = () => {
             <button
               key={tab}
               onClick={() => setActiveZodiacTab(tab)}
-              className={`px-5 py-2 rounded-full text-xs font-semibold uppercase tracking-wider transition-all ${
-                activeZodiacTab === tab
+              className={`px-5 py-2 rounded-full text-xs font-semibold uppercase tracking-wider transition-all ${activeZodiacTab === tab
                   ? 'bg-accent-kathakar text-white shadow-md'
                   : 'bg-foundation-ink/5 text-foundation-ink/60 hover:bg-foundation-ink/10'
-              }`}
+                }`}
             >
               {tab}
             </button>
@@ -358,8 +357,8 @@ const Home = () => {
             const domainColor = service.domain === 'astrology'
               ? 'text-accent-astrologer bg-accent-astrologer/10 border-accent-astrologer/20'
               : service.domain === 'vaastu'
-              ? 'text-accent-vastu bg-accent-vastu/10 border-accent-vastu/20'
-              : 'text-accent-kathakar bg-accent-kathakar/10 border-accent-kathakar/20';
+                ? 'text-accent-vastu bg-accent-vastu/10 border-accent-vastu/20'
+                : 'text-accent-kathakar bg-accent-kathakar/10 border-accent-kathakar/20';
 
             return (
               <div
@@ -447,13 +446,12 @@ const Home = () => {
               </div>
               <div className="p-5 flex-grow flex flex-col justify-between">
                 <div>
-                  <span className={`inline-block px-2.5 py-1 rounded-full text-[10px] font-semibold uppercase tracking-wider mb-3 ${
-                    video.category === 'kathakar' ? 'bg-accent-kathakar/10 text-accent-kathakar' :
-                    video.category === 'vaastu' ? 'bg-accent-vastu/10 text-accent-vastu' :
-                    'bg-accent-astrologer/10 text-accent-astrologer'
-                  }`}>
+                  <span className={`inline-block px-2.5 py-1 rounded-full text-[10px] font-semibold uppercase tracking-wider mb-3 ${video.category === 'kathakar' ? 'bg-accent-kathakar/10 text-accent-kathakar' :
+                      video.category === 'vaastu' ? 'bg-accent-vastu/10 text-accent-vastu' :
+                        'bg-accent-astrologer/10 text-accent-astrologer'
+                    }`}>
                     {video.category === 'kathakar' ? 'Bhagwat Katha' :
-                     video.category === 'vaastu' ? 'Vaastu Shastra' : 'Vedic Astrology'}
+                      video.category === 'vaastu' ? 'Vaastu Shastra' : 'Vedic Astrology'}
                   </span>
                   <h4 className="font-display font-bold text-sm text-foundation-ink line-clamp-2 leading-snug">
                     {video.title}
@@ -628,9 +626,8 @@ const Home = () => {
                   <button
                     key={idx}
                     onClick={() => setTestimonialIndex(idx)}
-                    className={`w-2.5 h-2.5 rounded-full transition-all ${
-                      idx === testimonialIndex ? 'bg-accent-kathakar scale-125' : 'bg-foundation-line/50 hover:bg-foundation-line'
-                    }`}
+                    className={`w-2.5 h-2.5 rounded-full transition-all ${idx === testimonialIndex ? 'bg-accent-kathakar scale-125' : 'bg-foundation-line/50 hover:bg-foundation-line'
+                      }`}
                   />
                 ))}
               </div>
@@ -660,7 +657,7 @@ const Home = () => {
       ══════════════════════════════════════════════ */}
       <section id="about-snippet" className="py-20 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
-          
+
           <div className="lg:col-span-5 relative">
             <div className="relative border border-foundation-line rounded-3xl p-4 bg-foundation-bg/40 max-w-md mx-auto">
               <img
