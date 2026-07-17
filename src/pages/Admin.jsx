@@ -87,7 +87,7 @@ const Admin = () => {
   };
 
   const addGalleryImage = () => {
-    setCmsState(prev => ({ ...prev, kathaGallery: [...prev.kathaGallery, '/assets/dr_jalpesh_mehta.png'] }));
+    setCmsState(prev => ({ ...prev, kathaGallery: [...prev.kathaGallery, '/Guru.jpg'] }));
   };
 
   const deleteGalleryImage = (index) => {

@@ -4,7 +4,7 @@
     "tagline": "Guiding Lives Through Ancient Vedic Wisdom",
     "bioShort": "Dr. Jalpesh Mehta is a highly respected Indian spiritual personality and founder of the Ramkrupa Foundation. Operating at the intersection of ancient scripture and modern life, he offers deep expertise as a Vedic Astrologer, Vaastu-Sastra Expert, and Bhagwat Kathakar.",
     "bioLong": "Dr. Jalpesh Mehta has dedicated over two decades to preserving and spreading the light of Sanatan Dharma. As the founder of the Ramkrupa Foundation and an active member of the Akhil Bharatiya Nagar Parishad, his discourses bridge the gap between traditional wisdom and contemporary challenges. He has guided thousands of individuals and families globally towards peace and prosperity through precise Janampatri readings, non-destructive Vaastu solutions, and heart-awakening Kathas.",
-    "avatar": "/assets/dr_jalpesh_mehta.png",
+    "avatar": "/Guru.jpg",
     "phone": "+91 98980 12345",
     "whatsapp": "+919898012345",
     "email": "inquiry@drjalpeshmehta.com"
@@ -158,7 +158,7 @@
     }
   ],
   "galleryImages": [
-    { "id": "gal2", "src": "/assets/dr_jalpesh_mehta.png", "alt": "Pujya Dr. Jalpesh Mehta - Vedic Astrologer, Vaastu Expert" }
+    { "id": "gal2", "src": "/Guru.jpg", "alt": "Pujya Dr. Jalpesh Mehta - Vedic Astrologer, Vaastu Expert" }
   ],
   "videos": [
     {
@@ -269,7 +269,7 @@
     }
   ],
   "kathaGallery": [
-    "/assets/dr_jalpesh_mehta.png"
+    "/Guru.jpg"
   ],
   "upcomingEvents": [
     {

@@ -1,6 +1,6 @@
 import defaultCmsData from './cms.json';
 
-const CMS_STORAGE_KEY = 'dr_jalpesh_mehta_cms_data_v2';
+const CMS_STORAGE_KEY = 'dr_jalpesh_mehta_cms_data_v3';
 
 export const getCmsData = () => {
   const data = localStorage.getItem(CMS_STORAGE_KEY);
