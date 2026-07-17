@@ -1,6 +1,6 @@
 import defaultCmsData from './cms.json';
 
-const CMS_STORAGE_KEY = 'dr_jalpesh_mehta_cms_data';
+const CMS_STORAGE_KEY = 'dr_jalpesh_mehta_cms_data_v2';
 
 export const getCmsData = () => {
   const data = localStorage.getItem(CMS_STORAGE_KEY);
@@ -10,13 +10,7 @@ export const getCmsData = () => {
     return defaultCmsData;
   }
   try {
-    const parsed = JSON.parse(data);
-    // Auto-migrate if old placeholder YouTube IDs or old avatar path exist in localStorage
-    if (JSON.stringify(parsed).includes('dQw4w9WgXcQ') || JSON.stringify(parsed).includes('/assets/dr_jalpesh_mehta.png')) {
-      localStorage.setItem(CMS_STORAGE_KEY, JSON.stringify(defaultCmsData));
-      return defaultCmsData;
-    }
-    return parsed;
+    return JSON.parse(data);
   } catch (e) {
     return defaultCmsData;
   }
