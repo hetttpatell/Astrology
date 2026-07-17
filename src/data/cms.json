@@ -158,15 +158,13 @@
     }
   ],
   "galleryImages": [
-    { "id": "gal1", "src": "/assets/katha_vyaspeeth.png", "alt": "Pujya Dr. Jalpesh Mehta - Bhagwat Katha Vyaspeeth" },
-    { "id": "gal2", "src": "/assets/dr_jalpesh_mehta.png", "alt": "Pujya Dr. Jalpesh Mehta - Vedic Astrologer, Vaastu Expert" },
-    { "id": "gal3", "src": "/assets/vastu_purush_mandala.png", "alt": "Vastu Purush Mandala - Ancient Architectural Blueprint" }
+    { "id": "gal2", "src": "/assets/dr_jalpesh_mehta.png", "alt": "Pujya Dr. Jalpesh Mehta - Vedic Astrologer, Vaastu Expert" }
   ],
   "videos": [
     {
       "id": "vid1",
-      "youtubeId": "GUoLCtTP1uk",
-      "title": "Shrimad Bhagwat Katha - Day 1 | Pujya Dr. Jalpesh Mehta",
+      "youtubeId": "zz034aG_R_I",
+      "title": "DAY - 01 શ્રીમદ્દ ભાગવત સપ્તાહ જ્ઞાનયજ્ઞ :- વક્તા: પૂજ્ય શ્રી ડૉ. જલ્પેશભાઈ મહેતા",
       "category": "kathakar",
       "duration": "3:15:42"
     },
@@ -204,6 +202,48 @@
       "title": "વૃષભ રાશિફળ ડો.જલ્પેશ મહેતા ૨૦૨૬ | Vrushabh (Taurus) Rashi Rashifal",
       "category": "astrology",
       "duration": "17:15"
+    },
+    {
+      "id": "vid7",
+      "youtubeId": "7GsQm5Zpqj4",
+      "title": "DAY - 02 શ્રીમદ્દ ભાગવત સપ્તાહ જ્ઞાનયજ્ઞ :- વક્તા: પૂજ્ય શ્રી ડૉ. જલ્પેશભાઈ મહેતા",
+      "category": "kathakar",
+      "duration": "3:24:12"
+    },
+    {
+      "id": "vid8",
+      "youtubeId": "VOwmDhqcH3g",
+      "title": "DAY - 03 શ્રીમદ્દ ભાગવત સપ્તાહ જ્ઞાનયજ્ઞ :- વક્તા: પૂજ્ય શ્રી ડૉ. જલ્પેશભાઈ મહેતા",
+      "category": "kathakar",
+      "duration": "3:10:45"
+    },
+    {
+      "id": "vid9",
+      "youtubeId": "jPN85FUpd9s",
+      "title": "DAY - 04 શ્રી મદ્દ ભાગવત સપ્તાહ જ્ઞાનયજ્ઞ :- વક્તા: પૂજ્ય શ્રી ડૉ. જલ્પેશભાઈ મહેતા",
+      "category": "kathakar",
+      "duration": "3:30:15"
+    },
+    {
+      "id": "vid10",
+      "youtubeId": "Dom2OXjXDAM",
+      "title": "DAY - 05 શ્રી મદ્દ ભાગવત સપ્તાહ જ્ઞાનયજ્ઞ :- વક્તા: પૂજ્ય શ્રી ડૉ. જલ્પેશભાઈ મહેતા",
+      "category": "kathakar",
+      "duration": "3:28:40"
+    },
+    {
+      "id": "vid11",
+      "youtubeId": "tT-Xn2kcidc",
+      "title": "DAY - 06 શ્રી મદ્દ ભાગવત સપ્તાહ જ્ઞાનયજ્ઞ :- વક્તા: પૂજ્ય શ્રી ડૉ. જલ્પેશભાઈ મહેતા",
+      "category": "kathakar",
+      "duration": "3:15:20"
+    },
+    {
+      "id": "vid12",
+      "youtubeId": "EDvnFiX4Lbs",
+      "title": "DAY - 07 શ્રી મદ્દ ભાગવત સપ્તાહ જ્ઞાનયજ્ઞ :- વક્તા: પૂજ્ય શ્રી ડૉ. જલ્પેશભાઈ મહેતા",
+      "category": "kathakar",
+      "duration": "3:45:10"
     }
   ],
   "shorts": [
@@ -229,9 +269,7 @@
     }
   ],
   "kathaGallery": [
-    "/assets/katha_vyaspeeth.png",
-    "/assets/dr_jalpesh_mehta.png",
-    "/assets/vastu_purush_mandala.png"
+    "/assets/dr_jalpesh_mehta.png"
   ],
   "upcomingEvents": [
     {

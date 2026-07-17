@@ -132,7 +132,7 @@ const Kathakar = () => {
               <div className="relative aspect-video rounded-2xl overflow-hidden bg-black shadow-inner">
                 <iframe
                   className="w-full h-full"
-                  src="https://www.youtube.com/embed/GUoLCtTP1uk"
+                  src={`https://www.youtube.com/embed/${kathakarVideos[0]?.youtubeId || 'zz034aG_R_I'}`}
                   title="Bhagwat Katha Featured Video"
                   frameBorder="0"
                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
@@ -141,7 +141,7 @@ const Kathakar = () => {
               </div>
               <div className="mt-3.5 px-1.5 flex items-center justify-between">
                 <span className="text-[10px] uppercase font-bold tracking-wider text-[#8C2F1B] font-body">Featured YouTube Discourse</span>
-                <span className="text-[9px] text-[#2b2622]/60 font-body">Duration: 3:15:42</span>
+                <span className="text-[9px] text-[#2b2622]/60 font-body">Duration: {kathakarVideos[0]?.duration || '3:15:42'}</span>
               </div>
             </div>
           </div>
@@ -295,12 +295,11 @@ const Kathakar = () => {
           </p>
         </div>
 
-        <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
-          {cmsData.kathaGallery.map((imgUrl, i) => (
+        {cmsData.kathaGallery && cmsData.kathaGallery.length === 1 ? (
+          <div className="flex justify-center">
             <div
-              key={i}
-              onClick={() => setLightboxImage(imgUrl)}
-              className="relative rounded-2xl overflow-hidden border border-[#B8AD98]/30 cursor-pointer group shadow-md bg-white/40 p-2.5 transition-transform duration-300 hover:-translate-y-1"
+              onClick={() => setLightboxImage(cmsData.kathaGallery[0])}
+              className="max-w-md w-full relative rounded-2xl overflow-hidden border border-[#B8AD98]/30 cursor-pointer group shadow-md bg-white/40 p-2.5 transition-transform duration-300 hover:-translate-y-1"
             >
               <div className="relative rounded-xl overflow-hidden aspect-[4/3] bg-slate-900">
                 <div className="absolute inset-0 bg-[#8C2F1B]/30 opacity-0 group-hover:opacity-100 transition-opacity duration-300 z-10 flex items-center justify-center">
@@ -309,8 +308,8 @@ const Kathakar = () => {
                   </span>
                 </div>
                 <img
-                  src={imgUrl}
-                  alt={`Katha event gallery ${i + 1}`}
+                  src={cmsData.kathaGallery[0]}
+                  alt="Pujya Dr. Jalpesh Mehta"
                   className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
                   onError={(e) => {
                     e.target.src = "https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&q=80&w=400";
@@ -319,12 +318,43 @@ const Kathakar = () => {
               </div>
               <div className="mt-3 text-center">
                 <span className="text-[10px] text-[#8C2F1B] font-bold uppercase tracking-wider font-body">
-                  {i === 0 ? "Katha Vyaspeeth Altar" : i === 1 ? "Pujya Dr. Jalpesh Mehta" : "Vastu Purush Mandala Diagram"}
+                  Pujya Dr. Jalpesh Mehta
                 </span>
               </div>
             </div>
-          ))}
-        </div>
+          </div>
+        ) : (
+          <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
+            {cmsData.kathaGallery.map((imgUrl, i) => (
+              <div
+                key={i}
+                onClick={() => setLightboxImage(imgUrl)}
+                className="relative rounded-2xl overflow-hidden border border-[#B8AD98]/30 cursor-pointer group shadow-md bg-white/40 p-2.5 transition-transform duration-300 hover:-translate-y-1"
+              >
+                <div className="relative rounded-xl overflow-hidden aspect-[4/3] bg-slate-900">
+                  <div className="absolute inset-0 bg-[#8C2F1B]/30 opacity-0 group-hover:opacity-100 transition-opacity duration-300 z-10 flex items-center justify-center">
+                    <span className="bg-white text-[#8C2F1B] px-4 py-2 rounded-full text-xs font-semibold uppercase tracking-wider shadow-md">
+                      Enlarge Photo
+                    </span>
+                  </div>
+                  <img
+                    src={imgUrl}
+                    alt={`Katha event gallery ${i + 1}`}
+                    className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
+                    onError={(e) => {
+                      e.target.src = "https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&q=80&w=400";
+                    }}
+                  />
+                </div>
+                <div className="mt-3 text-center">
+                  <span className="text-[10px] text-[#8C2F1B] font-bold uppercase tracking-wider font-body">
+                    {i === 0 ? "Katha Vyaspeeth Altar" : i === 1 ? "Pujya Dr. Jalpesh Mehta" : "Vastu Purush Mandala Diagram"}
+                  </span>
+                </div>
+              </div>
+            ))}
+          </div>
+        )}
       </section>
 
       {/* Lightbox */}
@@ -421,7 +451,7 @@ const Kathakar = () => {
         {kathakarVideos.length === 0 ? (
           <p className="text-sm text-[#2b2622]/50 font-body">No Katha videos currently featured.</p>
         ) : (
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
             {kathakarVideos.map((video) => (
               <div key={video.id} className="border border-[#B8AD98]/30 rounded-2xl overflow-hidden bg-white/40 shadow-lg flex flex-col group">
                 <div className="aspect-video bg-black relative">

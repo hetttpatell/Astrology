@@ -555,20 +555,35 @@ const Home = () => {
           </h2>
         </div>
 
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
-          {(cmsData.galleryImages || []).map((img) => (
-            <div key={img.id} className="gallery-image rounded-2xl border border-foundation-line/30 overflow-hidden shadow-sm">
+        {cmsData.galleryImages && cmsData.galleryImages.length === 1 ? (
+          <div className="flex justify-center">
+            <div className="max-w-md w-full gallery-image rounded-2xl border border-foundation-line/30 overflow-hidden shadow-sm p-3 bg-white/40">
               <img
-                src={img.src}
-                alt={img.alt}
-                className="w-full h-64 object-cover"
+                src={cmsData.galleryImages[0].src}
+                alt={cmsData.galleryImages[0].alt}
+                className="w-full h-80 object-cover rounded-xl"
                 onError={(e) => {
                   e.target.src = "https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&q=80&w=600";
                 }}
               />
             </div>
-          ))}
-        </div>
+          </div>
+        ) : (
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+            {(cmsData.galleryImages || []).map((img) => (
+              <div key={img.id} className="gallery-image rounded-2xl border border-foundation-line/30 overflow-hidden shadow-sm">
+                <img
+                  src={img.src}
+                  alt={img.alt}
+                  className="w-full h-64 object-cover"
+                  onError={(e) => {
+                    e.target.src = "https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&q=80&w=600";
+                  }}
+                />
+              </div>
+            ))}
+          </div>
+        )}
       </section>
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8"><div className="h-[1px] bg-foundation-line/20 my-4" /></div>
